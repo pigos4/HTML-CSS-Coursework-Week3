@@ -4,7 +4,12 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(8, auto);
-  grid-template-areas: "h h h h h h h h h h h h" "m m m m m m m m m m m m" "i i i i i i i i i i i i" "s s s s s s s s s s s s" "f f f f f f f f f f f f";
+  grid-template-areas: 
+  "h h h h h h h h h h h h" 
+  "m m m m m m m m m m m m" 
+  "i i i i i i i i i i i i" 
+  "s s s s s s s s s s s s" 
+  "f f f f f f f f f f f f";
 }
 
 header {
@@ -244,7 +249,12 @@ nav a {
   }
 
   .grid-container {
-    grid-template-areas: "h h h h h h h h h h h h" ". n n n n n n n n n n ." ". i i i i i m m m m m ." ". s s s s s s s s s s ." "f f f f f f f f f f f f";
+    grid-template-areas: 
+    "h h h h h h h h h h h h" 
+    ". n n n n n n n n n n ." 
+    ". i i i i i m m m m m ." 
+    ". s s s s s s s s s s ." 
+    "f f f f f f f f f f f f";
     gap: 1rem;
   }
 
@@ -282,7 +292,13 @@ nav a {
   }
 
   main p {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 5rem;
+  }
+  nav a {
+    font-size: 2.5rem;
+  }
+  footer a {
+    font-size: 2.5rem;
   }
 }
